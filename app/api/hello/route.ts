@@ -18,7 +18,6 @@ export const POST = async (request: Request) => {
   console.log('recieved body: ', received);
 
   return Response.json({
-    message: '',
     body: received,
   });
 };
